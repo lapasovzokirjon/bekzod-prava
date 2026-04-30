@@ -222,7 +222,7 @@ export default function HomePage() {
             </span>
             <p className="text-[12.5px] font-semibold text-amber-900">
               Bugun ro&apos;yxatdan o'ting va  
-              <span className="font-black">yangi guruh bilan </span>
+              <span className="font-black"> yangi guruh bilan </span>
               o'qishni boshlang {" "}
             </p>
           </div>

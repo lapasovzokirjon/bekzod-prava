@@ -106,7 +106,7 @@ async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
 
           <div className="relative z-10 mt-24">
             <h1 className="text-[44px] font-black leading-[0.98] tracking-[-0.04em]">
-              Bekzod Prava
+              
               <span className="block bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent">
                 Prava nazariy imtihoniga tayyorlov kursi
               </span>

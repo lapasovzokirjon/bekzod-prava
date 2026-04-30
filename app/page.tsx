@@ -119,9 +119,7 @@ export default function HomePage() {
             </div>
 
             
-              <a href="tel:+998901234567"
-              className="group relative flex items-center gap-2 rounded-full bg-white/5 px-4 py-3 backdrop-blur-md ring-1 ring-white/10 transition hover:bg-white/10 active:scale-95"
-            >
+              <a href="tel:+998886442227" className="group relative flex items-center gap-2 rounded-full bg-white/5 px-4 py-3 backdrop-blur-md ring-1 ring-white/10 transition hover:bg-white/10 active:scale-95">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
@@ -159,8 +157,7 @@ export default function HomePage() {
 
             <p className="mt-5 max-w-[360px] text-[16px] leading-[1.55] text-slate-300">
               Bir urinishda imtihondan o&apos;ting.{" "}
-              <span className="font-bold text-white">Bepul konsultatsiya</span>{" "}
-              uchun ma&apos;lumotlaringizni qoldiring.
+              <span className="font-bold text-white">Batafsil ma'lumot olish uchun ma'lumotlaringizni yuboring! </span>
             </p>
 
             <div className="mt-6 grid grid-cols-3 gap-2">
@@ -224,8 +221,9 @@ export default function HomePage() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-amber-500" />
             </span>
             <p className="text-[12.5px] font-semibold text-amber-900">
-              Bugun ro&apos;yxatdan va bugun o'qishni boshlang {" "}
-              <span className="font-black">20% chegirma</span>
+              Bugun ro&apos;yxatdan o'ting va  
+              <span className="font-black">yangi guruh bilan </span>
+              o'qishni boshlang {" "}
             </p>
           </div>
 
@@ -247,7 +245,7 @@ export default function HomePage() {
             <InputBox
               icon={<Phone size={20} strokeWidth={2.2} />}
               name="phone"
-              placeholder="+998 90 123 45 67"
+              placeholder="Tel nomer..."
               type="tel"
               autoComplete="tel"
               value={phoneValue}

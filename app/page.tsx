@@ -108,12 +108,12 @@ async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
             <h1 className="text-[44px] font-black leading-[0.98] tracking-[-0.04em]">
               Bekzod Prava
               <span className="block bg-gradient-to-r from-blue-500 to-blue-300 bg-clip-text text-transparent">
-                Avtomaktab
+                Prava nazariy imtihoniga tayyorlov kursi
               </span>
             </h1>
 
             <p className="mt-6 max-w-[330px] text-[20px] leading-8 text-slate-200">
-              Haydovchilik guvohnomasi olish uchun ro‘yxatdan o‘ting
+              Prava nazariy imtihonidan bir urinishda o'tish uchun so'rovnomani to'ldiring!
             </p>
           </div>
         </div>
@@ -158,7 +158,7 @@ async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
 
             <div className="pt-2">
               <p className="mb-4 text-[18px] font-extrabold">
-                Avtomaktab guvohnomasi bormi?
+                Sizda avtomaktab guvohnomasi bormi?
               </p>
 
               <div className="grid grid-cols-2 gap-3">
